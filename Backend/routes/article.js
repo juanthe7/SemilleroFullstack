@@ -19,5 +19,6 @@ router.put("/article/:id", ArticleController.update); //para actualizar
 router.delete("/article/:id", ArticleController.delete); //para actualizar
 router.post("/upload-image/:id", md_upload, ArticleController.upload); //vamos a guardar la imagen
 router.get("/get-image/:image", ArticleController.getImage); //vamos a mostrar la imagen
+router.get("/search-image/:search", ArticleController.search); //buscar la imagen
 
 module.exports = router;
