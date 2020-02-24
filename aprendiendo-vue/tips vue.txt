@@ -1,0 +1,4 @@
+ir al directorio del proyecto
+npm install -g @vue/cli -- instalar vue.js franmework o interprete
+vue --version -- ver si se instalo correctamente
+npm run serve
