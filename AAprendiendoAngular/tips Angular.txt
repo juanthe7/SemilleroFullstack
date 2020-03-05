@@ -1,0 +1,82 @@
+Angular esta compuesto por: 
+
+1: componentes: va a controlar un trozo de pantalla o de la vista, se encarga de mediar entre la vista y la logica de la app. 
+
+2: plantillas: son las vistas de los componentes
+
+3: decoradores : configurar dinamicamente los atributos que tendra la clase
+
+4: metadatos: describe una serie de relaciones o caracteristica de las clases.
+
+5: servicios: clases que facilitan la reutilizacion del codigo.
+
+6: providers: servicios que proveen datos o funcionalidades dentro de sus datos.
+ 
+7: directivas: funcionalidades aplicables al DON y elementos HTML. 
+
+8: modulos: pueden ser modular por modulos, tienda, administracion etc. 
+
+
+*Instalacion de angular
+- Actualizamos el npm en el usuario principal del computador Cmd, no en el proyecto. 
+	npm install -g npm@latest
+- borrar la cache de npm para evitar usar los paquetes que tenia almacenados en chache
+	npm cache clean --force
+- desactivar la auditoria de seguridad de los paquetes
+	npm set audit false
+- desactivar versiones antiguas de angular
+	npm uninstall -g angular-cli
+	npm uninstall -g @angular/cli
+	npm cache clean --force
+- instalamos la ultima version de Angular
+	npm install -g @angular/cli@latest
+- creamos el proyecto de angular
+	ng new
+---Asignamos el nombre del proyecto
+---Configura routing de antular --NO
+---Preprocesador de CSS --enter ya que selecciona CSS
+
+-entrar  la carpeta creada para el proyecto
+-arrancar el webpack y compile los ficheros de typescrip, liveserver,(pequeño server local), live reload( recarga pantalla automatica) con ng serve
+	ng serve
+	
+	
+	
+
+*componentes webcomonentes
+
+
+*proyecto de angular
+
+
+*routing de angular
+
+
+*Directivas, como es y como se usan, condicionales bucles
+
+
+*Comunicacion con conmponentes, input, output
+
+
+*pipes y filtros
+
+
+*Trabajo con formularios y validacion de datos
+
+*vento onclic submit, onclick, change
+
+
+*servicios de algular, peticiones http- api REST
+
+
+*proyecto completo
+
+
+*subida de imagenes al backend con algular
+
+
+*buscador  
+
+*modulos externos
+
+

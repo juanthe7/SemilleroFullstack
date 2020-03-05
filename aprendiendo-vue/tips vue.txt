@@ -1,4 +1,41 @@
 ir al directorio del proyecto
 npm install -g @vue/cli -- instalar vue.js franmework o interprete
 vue --version -- ver si se instalo correctamente
-npm run serve
+vue create nombreproyecto -- vue create aprendiendo-vue
+si pregunta por el linter le damos enter, inicia repositorio y instala dependencias de vue
+cd carpeta proyecto ---para arrancar el proyecto
+npm run serve -- arrancar el servidor
+-------------------------------------------------------------------------
+
+carpeta components: helloworld.vue: pantalla de bienvenida, vista template y clase del componente 
+
+readme: documentacion de como arrancar el proyecto
+
+package.json: archivo para configurar nombre del comando, script, depencicias y depdependencies.
+
+package-log.json: se genera al usar al NPM 
+
+babel-config.js: es un ficher interno del framekorw de vue
+
+gitignore: excluir cosas del commit
+
+node_modules: npm guarda directorio y dependencias
+
+carpeta public: favicon
+
+carpeta public: index.html: unica pagina de htlm que vamos a tener en el proyecto, todo el proyecto va en esta pagina, a partir de la equiqueta div se monta todo el proyecto, es la vista principal donde se va a estar cargando todo, es el punto de entrada del proyecto. 
+
+carpeta SRC: aca donde vamos a estar tocando y trabajando
+subcarpeta assets:guardaremos imagenes, stylos CSS etc
+subcarpeta components: se crean los diferentes componentes
+app.vue: componente principal, aca se van a cargar el resto de componentes, para poder usarlos en el resto de componenetes o usarlo en app.vue
+
+main.js: fichero configuracion de vue donde se importa vue, se dice si esta en produccion o no y se carga el obejto de vue para que funcione. 
+
+estructura del componente: template, clase javascript, y estilos opcionales. 
+
+
+
+
+
+

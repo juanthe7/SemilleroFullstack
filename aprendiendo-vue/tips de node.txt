@@ -1,0 +1,50 @@
+cd : ir al directorio
+npm init: iniciar el proyecto
+nombre de la carpeta
+Version 1.0
+descripcion : la que quieras 
+a lo demas enter
+
+ahora instalo las depencias para el proyecto: 
+cd backend o carpeta del proyecto
+npm express: permite trabajar con diferente rutas http, es lo que nos va a permitir recibir peticiones en json y enviar datos 
+npm install --save express: lo guarda como dependencia del proyecto: este comando genera el node_modules, package.json
+
+npm install --save body-parser: permite cuando yo le mando un formulario lo pasa a un json, recibe un peticion http y convierte los parametros que yo le envio en un json, por el body-parser.
+
+npm install --save mongoose: permite hacer un CRUD con la base de datos
+
+npm install --save connect-multiparty: para subir ficheros mediante la libreria
+
+npm install --save validator: validar los formularios que son enviados por medio del http
+
+concetar el backend con mongo: 
+debemos arrancar el mongod.exe : el demonio que tiene que estar corriendo por detras para que las bases de datos funcionen
+debemos arrancar el mongo.exe
+
+
+creo un index.js: conexion base de datos y servidor y el resto del backend
+
+npm install --save-sev nodemon: despues de hacer la conexion, solo se instala en desarrollo osea local
+lo uso en el package json
+
+"scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+cuando ya lo haya instalado lo ejecuto con 
+npm start
+
+crar el servido web para poder recibir peticiones,crear rutas
+app.js: piedra agujular, crearmos rutas, cargamos express, recibimos peticiones utilizamos midelgares
+
+creamos una carpeta: models y un archivo llamado articles.js : va a ser el modelo que vamos a crear para la aplicacion en concreto, esta aplicacion sera de articulos. 
+
+modelo: es una clase que nos da un modelo de para crear un molde, articulo, creo un esquema del articulo y cada uno de los objetos, estructuras y sobre este modelo yo puedo esta conectandome a la conexion de estos articulos y conectandome a la BD, 
+es una capa de abstraccion media. 
+
+
+creamos la carpeta de controllers  y creamos el archivo article.js, tendremos rutas de nuestro backend
+
+cramos una carpeta de rutas routes y creo un archivo de rutas del article.js
